@@ -1,4 +1,4 @@
-RNA Modification Probability Mixture Models
+#RNA Modification Probability Mixture Models
 
 This repository fits mixture models to per-read RNA modification probabilities (for example, m6A probabilities reported by modkit).  The models separate a low-probability, likely-unmodified population from a high-probability, likely-modified population and an ambiguous background population.  Their main outputs are posterior modification probabilities, local-FDR-based probability cutoffs, and coverage-aware site-level modification estimates.
 
